@@ -24,6 +24,7 @@ import java.util.Collections;
         int startY;
         int endX;
         int endY;
+        
 
     public FifteenSquares(Context context, AttributeSet attrs) //constructor
         {

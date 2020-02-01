@@ -13,23 +13,24 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="110dp"
             android:gravity="fill"
             android:orientation="horizontal">
 
 
-            <Button
-                android:id="@+id/Reset"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Reset" />
         </LinearLayout>
 
         <com.example.slidingpuzzlegame.FifteenSquares
             android:id="@+id/board"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="661dp"
             android:layout_weight="2" />
+
+        <Button
+            android:id="@+id/Reset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reset" />
 
     </LinearLayout>
 
